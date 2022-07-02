@@ -311,9 +311,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1500284171}
   - component: {fileID: 1500284170}
+  - component: {fileID: 1500284172}
   - component: {fileID: 1500284169}
   - component: {fileID: 1500284168}
-  - component: {fileID: 1500284172}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -409,7 +409,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1500284167}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f964cb48930deb746a756127ebf42c74, type: 3}
+  m_Script: {fileID: 11500000, guid: 5ab85abd5249a504197920812eb9ecdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1501479007
