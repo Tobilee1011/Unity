@@ -56,9 +56,10 @@
     <Compile Include="Assets\Actor.cs" />
     <Compile Include="Assets\NewBehaviourScript.cs" />
     <Compile Include="Assets\LifeCycle2.cs" />
+    <Compile Include="Assets\LifeCycle3.cs" />
     <Compile Include="Assets\LifeCycle.cs" />
     <Compile Include="Assets\Player.cs" />
-    <Compile Include="Assets\LifeCycle3.cs" />
+    <Compile Include="Assets\Move.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
