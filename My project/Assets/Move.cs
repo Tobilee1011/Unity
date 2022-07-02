@@ -23,6 +23,7 @@ public class Move : MonoBehaviour
         //transform.position = Vector3.Lerp(transform.position, target, 0.05f);
 
         //4. Slerp : 구면 선형보간 이동, 호를 그리며 이동 
-        transform.position = Vector3.Slerp(transform.position, target, 0.05f);
+        //transform.position = Vector3.Slerp(transform.position, target, 0.05f);
+
     }
 }

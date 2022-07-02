@@ -350,10 +350,12 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 "Assets/Actor.cs"
+"Assets/deltaTime.cs"
 "Assets/LifeCycle.cs"
 "Assets/LifeCycle2.cs"
 "Assets/LifeCycle3.cs"
 "Assets/Move.cs"
+"Assets/Myball.cs"
 "Assets/NewBehaviourScript.cs"
 "Assets/Player.cs"
 -langversion:9.0

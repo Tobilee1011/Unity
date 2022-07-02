@@ -54,12 +54,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Actor.cs" />
+    <Compile Include="Assets\Move.cs" />
     <Compile Include="Assets\NewBehaviourScript.cs" />
     <Compile Include="Assets\LifeCycle2.cs" />
+    <Compile Include="Assets\deltaTime.cs" />
     <Compile Include="Assets\LifeCycle3.cs" />
     <Compile Include="Assets\LifeCycle.cs" />
     <Compile Include="Assets\Player.cs" />
-    <Compile Include="Assets\Move.cs" />
+    <Compile Include="Assets\Myball.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
