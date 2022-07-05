@@ -36,19 +36,19 @@ public class Myball : MonoBehaviour
         //rigid.velocity = Vector3.forward; //#속력바꾸기
 
         //2. 힘으로 밀기  
-        //if (Input.GetButtonDown("Jump"))
-        //{
-        //    rigid.AddForce(Vector3.up * 1, ForceMode.Impulse);
-        //    Debug.Log(rigid.velocity);
-        //}
-        //Vector3 vec = new Vector3(Input.GetAxisRaw("Horizontal"),0, Input.GetAxisRaw("Vertical"));
-        //rigid.AddForce(vec, ForceMode.Impulse);
+        if (Input.GetButtonDown("Jump"))
+        {
+            rigid.AddForce(Vector3.up * 1, ForceMode.Impulse);
+            Debug.Log(rigid.velocity);
+        }
+        Vector3 vec = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
+        rigid.AddForce(vec, ForceMode.Impulse);
 
         //3. 회전력
         //rigid.AddTorque(Vector3.back);
 
         //rigid.AddTorque(Vector3.up);
 
-        rigid.AddTorque(Vector3.down);
+        //rigid.AddTorque(Vector3.down);
     }
 }
